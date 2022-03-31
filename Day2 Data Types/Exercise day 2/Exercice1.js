@@ -29,7 +29,7 @@ console.log(challenge.split()) // [ '30 Days Of JavaScript' ]
 console.log(challenge.split(' ')) // [ '30', 'Days', 'Of', 'JavaScript' ]
 
 //11
-console.log('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(',')) // ['Facebook',' Google',' Microsoft',' Apple',' IBM',' Oracle',' Amazon']
+console.log('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(',')) // [' Facebook', ' Google', ' Microsoft', ' Apple', ' IBM', ' Oracle', ' Amazon' ]
 
 //12
 console.log(challenge.replace('JavaScript', 'Python')) // 30 Days Of Python
