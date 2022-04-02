@@ -55,7 +55,7 @@ let myAge = 25
 let yourAge = 10
 console.log(`I am ${myAge - yourAge} years older than you`)
 
-13
+//13
 let year = parseInt(prompt('Enter birth year', 'number goes here'))
 console.log(`You are ${new Date().getFullYear() - year}.`, new Date().getFullYear() - year > 18 ? "You are old enough to drive" : `You will be allowed to drife after ${18 - (new Date().getFullYear() - year)} years.`)
 
