@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>30DaysOfJavaScript</title>
+</head>
+
+<body>
+
+	<script src="./countries.js"></script>
+	<script>
+console.log(countries);
+        //1.6
+        console.log(countries.slice(0,10))
+
+        //2
+        console.log(countries.slice(countries.length/2, countries.length/2+1))
+
+        //3
+        let array1 = countries.splice(0,countries.length/2+1)
+        let array2 = countries.slice()
+        console.log(array1, array2)
+
+    </script>
+
+</body>
+
+</html>
